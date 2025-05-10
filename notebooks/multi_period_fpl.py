@@ -179,7 +179,7 @@ def solve_multi_period_fpl(team_id, gw, ft, itb, horizon, objective='regular', d
 
 if __name__ == '__main__':
     
-    r = solve_multi_period_fpl(384489, 4, 2, 1.5, 4, 'regular')
+    r = solve_multi_period_fpl(384489, 4, 2, 1.5, 5, 'regular')
     print(r['picks'])
     print(r['summary'])
     r['picks'].to_csv('optimal_plan.csv')
