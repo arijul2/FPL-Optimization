@@ -1,4 +1,4 @@
-# FPL Optimizer
+# Fantasy Premier League Optimizer
 
 A mathematical optimization tool for Fantasy Premier League (FPL) that creates optimal transfer plans across multiple gameweeks. Using linear programming and expected points data, this tool determines the best transfers, lineup, and captain choices to maximize your FPL score. The multi-period optimization approach accounts for future gameweeks to make strategic decisions rather than just optimizing for the current week.
 
